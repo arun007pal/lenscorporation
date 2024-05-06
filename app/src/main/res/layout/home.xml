@@ -11,11 +11,6 @@
         android:orientation="vertical">
 
 
-
-
-
-
-
         <com.denzcoskun.imageslider.ImageSlider
             android:id="@+id/imgslider"
             android:layout_width="wrap_content"
