@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">LensCorporation</string>
+
+
+    <string name="col1">POST</string>
+    <string name="col2">NAME</string>
+    <string name="col3">DESIGNATION</string>
+
+
+
+    <string name="row1post">Vice Vice President</string>
+    <string name="row1Name">Shaju A Francis	</string>
+    <string name="row1Designation">Sr. DFM/Nanded/SCR
+</string>
+
+
+</resources>

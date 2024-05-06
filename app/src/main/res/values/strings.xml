@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">LensCorporation</string>
+
+
+    <string name="col1">POST</string>
+    <string name="col2">NAME</string>
+    <string name="col3">DESIGNATION</string>
+
+
+    <string name="ViceVicePresident">Vice Vice President</string>
+    <string name="ShajuAFrancis">Shaju A Francis</string>
+    <string name="Sr.DFMNandedSCR">Sr. DFM/Nanded/SCR</string>
+    <string name="Secy.General">Secy. General</string>
+    <string name="H.C.Yadav">H.C. Yadav</string>
+    <string name="CWMPDDDUECR">CWM/PD/DDU/ECR</string>
+    <string name="Secy.Finance">Secy. Finance	</string>
+    <string name="V.K.Bharti">V.K. Bharti	</string>
+    <string name="APOLegalBHNR">APO/Legal/BH/NR</string>
+    <string name="Secretary">Secretary</string>
+    <string name="VeereshwarSingh">Veereshwar Singh	</string>
+    <string name="Sr.DSTECSTMCR">Sr. DSTE/CSTM/CR</string>
+
+
+    <string name="Units">Units</string>
+    <string name="HeadQuarters">HeadQuarters</string>
+
+    <string name="Easteast">East east Central Railway</string>
+    <string name="Hajipur">Hajipur</string>
+    <string name="EastCoast">East Coast Railway</string>
+    <string name="Bhubaneswar">Bhubaneswar</string>
+    <string name="NorthCentral">North Central Railway</string>
+    <string name="Prayagraj">Prayagraj</string>
+    <string name="NorthEastern">North Eastern Railway</string>
+    <string name="Gorakhpur">Gorakhpur</string>
+    <string name="NortheastFrontier">Northeast Frontier Railway</string>
+    <string name="Guwahati">Guwahati</string>
+
+
+    <string name="row1post">Vice Vice President</string>
+    <string name="row1Name">Shaju A Francis	</string>
+    <string name="row1Designation">Sr. DFM/Nanded/SCR
+</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="YEAR">YEAR</string>
+    <string name="PRESIDENT">PRESIDENT</string>
+    <string name="SECRATORY_GENERAL">SECRATORY_GENERAL</string>
+
+    <string name="one">1971-1972</string>
+    <string name="Sh.M.P.Bhargava">Sh.M.P. Bhargava</string>
+    <string name="Sh.P.C.DasGupta">Sh.P.C. Das Gupta</string>
+
+    <string name="two">1973-1975</string>
+    <string name="Sh.M.P.Bhargava1">Sh.M.P. Bhargava</string>
+    <string name="Sh.RasmayDutta">Sh.Rasmay Dutta</string>
+
+    <string name="three">1976-1981</string>
+    <string name="Sh.M.P.Bhargava3">Sh.M.P. Bhargava</string>
+    <string name="Sh.S.K.Khanna">Sh.S.K. Khanna</string>
+
+    <string name="four">1982-1983</string>
+    <string name="Sh.S.N.Trivedi">Sh.S.N. Trivedi</string>
+    <string name="Sh.S.K.Khanna1">Sh.S.K. Khanna</string>
+
+    <string name="five">1984</string>
+    <string name="Sh.RasmayDutta1">Sh.Rasmay Dutta</string>
+    <string name="Sh.N.Jayaraman">Sh.N. Jayaraman</string>
+
+    <string name="six">	1985</string>
+    <string name="Sh.RasmayDutta2">Sh.Rasmay Dutta</string>
+    <string name="h.S.Subramanian">h.S. Subramanian</string>
+
+    <string name="seven">1986</string>
+    <string name="Sh.RasmayDutta12">Sh.Rasmay Dutta</string>
+    <string name="Sh.S.K.Bhandari">Sh.S.K. Bhandari</string>
+
+    <string name="eight">1987-1988</string>
+    <string name="Sh.D.B.Ghosh">Sh.D.B. Ghosh</string>
+    <string name="SSh.S.K.Bhandari">Sh.S.K. Bhandari</string>
+
+
+</resources>

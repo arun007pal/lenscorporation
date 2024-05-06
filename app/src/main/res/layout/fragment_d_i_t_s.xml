@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/dits_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dits"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="4dp"
+            app:cardCornerRadius="2dp"
+            android:layout_margin="0dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardMaxElevation="1dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:src="@drawable/pdficon"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="20220209_IRMS_Gazette Notification"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/showPreview"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="Show Preview"
+                            android:textColor="@android:color/holo_red_dark"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/downloadTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_height="wrap_content"
+                        android:text="Download PDF"
+                        android:textColor="@android:color/holo_blue_dark"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/typeTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_height="wrap_content"
+                        android:text="Type: pdf"
+                        android:textColor="@android:color/darker_gray" />
+
+                    <TextView
+                        android:id="@+id/scannedTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_height="wrap_content"
+                        android:text="Scanned: Copy"
+                        android:textColor="@android:color/darker_gray" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="4dp"
+            app:cardCornerRadius="2dp"
+            android:layout_margin="0dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardMaxElevation="1dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true"
+            >
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:src="@drawable/pdficon"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="20220215_IRMS_Recruitment Rules"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/showPreview1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="Show Preview"
+                            android:textColor="@android:color/holo_red_dark"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/downloadTextView1"
+                        android:layout_width="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_height="wrap_content"
+                        android:text="Download PDF"
+                        android:textColor="@android:color/holo_blue_dark"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_height="wrap_content"
+                        android:text="Type: pdf"
+                        android:textColor="@android:color/darker_gray" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_height="wrap_content"
+                        android:text="Scanned: Copy"
+                        android:textColor="@android:color/darker_gray" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

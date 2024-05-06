@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<!--    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />-->
+
+
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:background="#7B1FA2"
+        />
+    
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tablayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        app:tabMode="scrollable"
+        android:background="#031D38"
+        />
+    
+
+
+<!--<com.denzcoskun.imageslider.ImageSlider-->
+<!--    android:id="@+id/imgslider"-->
+<!--    android:layout_width="wrap_content"-->
+<!--    android:layout_height="200dp"-->
+<!--    android:layout_marginTop="5dp"-->
+<!--    app:iss_auto_cycle="true"-->
+<!--    app:iss_period="1000"-->
+<!--    app:iss_delay="1000"-->
+<!--    android:layout_below="@id/tablayout"-->
+<!--    android:textAlignment="center"-->
+<!--    />-->
+<!--    <TextView-->
+<!--        android:id="@+id/textview"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="5dp"-->
+<!--        android:text="Lorem Ipsum The national single window system has access to over 100 central-->
+<!--        level approvals and state single window systems of 14 states/uTs with one user Id and password"-->
+<!--    android:padding="3dp"-->
+<!--        android:textColor="#393131"-->
+<!--        android:textSize="20sp"-->
+<!--        android:singleLine="true"-->
+<!--        android:ellipsize="marquee"-->
+<!--        android:scrollHorizontally="true"-->
+<!--        android:marqueeRepeatLimit="marquee_forever"-->
+<!--        android:layout_below="@id/imgslider"-->
+<!--        />-->
+
+
+<!--    <androidx.recyclerview.widget.RecyclerView-->
+<!--        android:id="@+id/recyclerview"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_below="@id/textview">-->
+
+<!--    <Button-->
+<!--        android:id="@+id/btn1"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Who we are: IRPOF"-->
+<!--        android:layout_below="@+id/textview"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--       android:layout_centerHorizontal="true"-->
+<!--        />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/btn2"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Mission Vision"-->
+<!--        android:layout_below="@+id/btn1"-->
+<!--        android:layout_marginTop="2dp"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        />-->
+<!--    <Button-->
+<!--        android:id="@+id/btn3"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Recent Events"-->
+<!--        android:layout_below="@+id/btn2"-->
+<!--        android:layout_marginTop="2dp"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        />-->
+<!--    <Button-->
+<!--        android:id="@+id/btn4"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Images"-->
+<!--        android:layout_below="@+id/btn3"-->
+<!--        android:layout_marginTop="2dp"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        />-->
+<!--    <Button-->
+<!--        android:id="@+id/btn5"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Videos"-->
+<!--        android:layout_below="@+id/btn4"-->
+<!--        android:layout_marginTop="2dp"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        />-->
+
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/tablayout"
+        >
+
+    </androidx.viewpager.widget.ViewPager>
+
+</RelativeLayout>

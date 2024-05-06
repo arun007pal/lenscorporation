@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        android:weightSum="4"
+        >
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/bd_meeting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Meeting"
+            android:padding="6dp"
+            android:layout_weight="2"
+
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/ecm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ECM"
+            android:layout_weight="2"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/agm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AGM"
+            android:layout_weight="4"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/emrgnt_meeting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:text="Emergen" />
+    </LinearLayout>
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragment_container_event_view_tag"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+</LinearLayout>
